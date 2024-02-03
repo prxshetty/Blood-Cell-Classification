@@ -14,8 +14,7 @@ Key libaries used:
 - TensorFlow 2.x
 - Matplotlib
 - scikit-learn
-  
-
+- CUDA (Nvidia Graphics Required)
 
 ## Preprocessing
 The images are resized to 224x224 and pixel values are scaled between -1 and 1 before passing to MobileNetV2 model as the MobileNetV2 model was trained on that specific data.
