@@ -23,7 +23,8 @@ The images are resized to 224x224 and pixel values are scaled between -1 and 1 b
 A pretrained MobileNetV2 model is used and the top classification layer is replaced for our 4 blood cell type classes. The model is then trained on the training images and evaluated on test set.
 
 ## Training
-The model is trained for 20 epochs using categorical cross entropy loss and Adam optimizer. Callbacks are used for early stopping, model checkpointing and reducing learning rate on plateau. The images are split into training and test sets with trainign having validation split as well.
+The model is trained using categorical cross entropy loss and Adam optimizer. Callbacks are used for early stopping, model checkpointing and reducing learning rate on plateau. The images are split into training and test sets with training having validation split as well.
+
 
 ## Evaluation
 Coming soon...
