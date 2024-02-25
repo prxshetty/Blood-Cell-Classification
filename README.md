@@ -27,7 +27,7 @@ The model is trained using categorical cross entropy loss and Adam optimizer. Ca
 
 
 ## Evaluation
-Coming soon...
+Accuracy of 94% was seen on the validation set.
 
 ## Upcoming...
 - Use data from National Library of Medicine
